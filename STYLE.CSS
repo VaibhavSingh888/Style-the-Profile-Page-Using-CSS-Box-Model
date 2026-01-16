@@ -1,0 +1,106 @@
+/* General Reset and Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6; /* Light grey-green background */
+    color: #333;
+}
+
+/* Colorful Header with Gradient */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Purple/Blue Gradient */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffde59; /* Bright yellow for visibility */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Main Content Container */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Semantic Section Styling */
+section {
+    background: white;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-top: 5px solid #667eea;
+}
+
+h2 {
+    color: #764ba2;
+    border-bottom: 2px solid #f4f7f6;
+    padding-bottom: 10px;
+}
+
+/* Profile Image Styling */
+.profile-img {
+    display: block;
+    margin: 10px auto 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #764ba2;
+    object-fit: cover;
+}
+
+/* Skills List Styling */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #e9ecef;
+    padding: 10px 15px;
+    border-radius: 20px;
+    list-style: none;
+    font-size: 0.9rem;
+    color: #495057;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2d3436;
+    color: white;
+    font-size: 0.9rem;
+}
